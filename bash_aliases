@@ -10,3 +10,4 @@ fi
 alias r="ranger"
 alias root="cd ~/Dropbox/Dev"
 alias gst="git status"
+alias fragments2="sudo ~/Dropbox/Dev/fadecandy/server/fcserver ~/Dropbox/Dev/sparquil/configs/fadecandy_configs/fragments2-fc-config.json"
