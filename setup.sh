@@ -5,5 +5,7 @@ if [ ! -e "$HOME/.vim" ]; then
 fi
 
 ln -s "$HOME/etc/vimrc" "$HOME/.vimrc" 
-ln -s "$HOME/etc/bashrc" "$HOME/.bashrc"
 ln -s "$HOME/etc/bash_profile" "$HOME/.bash_profile"
+ln -s "$HOME/etc/profile" "$HOME/.profile"
+ln -s "$HOME/etc/bashrc" "$HOME/.bashrc"
+ln -s "$HOME/etc/bash_aliases" "$HOME/.bash_aliases"

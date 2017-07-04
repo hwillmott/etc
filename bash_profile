@@ -3,13 +3,14 @@
 PATH="~/Dev:/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
-##
-# Your previous /Users/Harriet/.bash_profile file was backed up as /Users/Harriet/.bash_profile.macports-saved_2015-01-03_at_20:29:33
-##
+# add java
+PATH="/usr/bin/java/jre1.8.0_91/bin:${PATH}"
+export PATH
 
-# MacPorts Installer addition on 2015-01-03_at_20:29:33: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-# Finished adapting your PATH environment variable for use with MacPorts.
-if [ -f "$HOME/.bashrc" ]; then
-    source "$HOME/.bashrc"
-fi
+# add processing
+PATH="~/processing-3.1.1:${PATH}"
+export PATH
+
+# aliases
+alias guake="~/Documents/guake-master/dev.sh"
+alias r="ranger"
