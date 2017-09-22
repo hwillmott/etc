@@ -14,3 +14,5 @@ export PATH
 # aliases
 alias guake="~/Documents/guake-master/dev.sh"
 alias r="ranger"
+
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi 
